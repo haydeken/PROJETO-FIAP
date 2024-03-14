@@ -1,0 +1,82 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #13113c 50%, #a8a6d0 50%);
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+h1{
+    font-size: 60px;
+    color: white;
+    text-shadow:
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
+}
+
+.texto-inferior,
+.texto-meio,
+.texto-superior {
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    color: #13113c;
+    font-weight: bold;
+    text-decoration: none;
+    width: 370px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.title_div {
+    display: flex;
+    justify-content: center;
+}
+
+.box_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_div a{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.texto-superior i,
+.texto-meio i,
+.texto-inferior i {
+    position: absolute;
+    left: 0;
+    padding: 5px;
+    margin-right: 1rem;
+    transform: scale(70%);
+}
+
+.home_button {
+    position: absolute;
+    right: 2rem;
+    bottom: 3rem;
+    width: fit-content;
+    background: #ffffff;
+    border-radius: 5rem;
+}
+
+.home_button i {
+    padding: 1rem;
+    border-radius: 5rem;
+    transform: scale(125%);
+}
