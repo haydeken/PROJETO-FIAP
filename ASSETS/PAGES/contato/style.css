@@ -4,6 +4,7 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(135deg, #13113c 50%, #a8a6d0 50%);
+    background-attachment: fixed;
     position: relative;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;

@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     background: linear-gradient(135deg, #13113c 50%, #a8a6d0 50%);
+    background-attachment: fixed;
     position: relative;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
@@ -23,10 +24,11 @@ h1{
 
 p {
     text-decoration: none;
-    width: 800px;
+    min-width: 30%;
+    max-width: 50%;
     height: px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 18px;
     box-shadow: 10px 10px 1px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
@@ -52,11 +54,11 @@ p {
 }
 
 .home_button {
-    position: absolute;
+    position: fixed;
     right: 2rem;
     bottom: 3rem;
     width: fit-content;
-    background: #ffffff;
+    background: #13113c;
     border-radius: 5rem;
 }
 
@@ -64,4 +66,5 @@ p {
     padding: 1rem;
     border-radius: 5rem;
     transform: scale(125%);
+    color:#a8a6d0
 }
